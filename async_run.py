@@ -33,7 +33,6 @@ asyncio.run(get_symbols())  # same as the below one
 end = time.time()
 total_time = end - start
 
-
 print(
     "Time taken is {} seconds to make {} API calls".format(total_time, len(symbols))
 )
